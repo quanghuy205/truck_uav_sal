@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../includes/split.h
+vector
+-
+
+/home/quanghuy205/TruckUAV-master/src/split.cpp
+iostream
+-
+cstdlib
+-
+vector
+-
+algorithm
+-
+limits
+-
+split.h
+/home/quanghuy205/TruckUAV-master/src/split.h
+
